@@ -4,7 +4,9 @@
 
 '''
 Generate my supersecret key
-v.01
+v.2
+ACAB
+poo poo won't get my secrets
 '''
 
 import hashlib
@@ -163,30 +165,35 @@ keyarr5 = []
 
 secrethash = 'd050d6ef5c5685336d467af6d6406fee'
 
+# Oh no, i need to sort these in correct order...
 
+append_to_keyarr(110, keyarr1)
 append_to_keyarr(110, keyarr1)
 append_to_keyarr(100, keyarr1)
 append_to_keyarr(116, keyarr1)
 append_to_keyarr(98, keyarr1)
-append_to_keyarr(110, keyarr1)
+
 
 append_to_keyarr(103, keyarr2)
+append_to_keyarr(93, keyarr2)
 append_to_keyarr(110, keyarr2)
 append_to_keyarr(108, keyarr2)
 append_to_keyarr(107, keyarr2)
-append_to_keyarr(93, keyarr2)
+
 
 append_to_keyarr(103,keyarr3)
+append_to_keyarr(117,keyarr3)
 append_to_keyarr(104,keyarr3)
 append_to_keyarr(116,keyarr3)
 append_to_keyarr(98,keyarr3)
-append_to_keyarr(117,keyarr3)
+
 
 append_to_keyarr(111,keyarr4)
+append_to_keyarr(29,keyarr4)
 append_to_keyarr(116,keyarr4)
 append_to_keyarr(115,keyarr4)
 append_to_keyarr(109,keyarr4)
-append_to_keyarr(29,keyarr4)
+
 
 key1 = get_sub_key(keyarr1)
 key2 = get_sub_key(keyarr2)
